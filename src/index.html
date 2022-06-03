@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="admin portal" content="">
+    <title>CitizenBox - Admin portal</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="container">
+      
+      <div>
+        <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom"> 
+                  
+          <img src="../assets/brand/smallLogo.png" id="logo">
+          <button type="button" class="btn btn-secondary">Logout</button>
+        </header>
+      </div>
+
+      <div class="p-1 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h5 class="fw-lighter">CitizenBox - Admin Portal</h5>
+          <h1 class="display-6 fw-bold">Create new application</h1>
+          <p class="col-md-8 fs-6">You need to provide name, email, mobile... in order to create new account. Once created, account will be accessible instantly. </p>
+          <button class="btn btn-primary btn-lg" type="button">
+            <i class="bi bi-person-plus-fill"></i>
+            Create application </button>
+        </div>
+      </div>
+
+      <h1 class="display-6 fw-bold border-bottom">Search account</h1>
+      <div class="form-area p-2">
+        <form>
+          <div class="row p-2">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Organisation">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Plan">
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Mobile">
+            </div>
+            </div>
+          </div>
+          <div class="col-1 p-2">
+            <button class="btn btn-primary btn-lg" type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+
+      <h1 class="display-6 fw-bold border-bottom pt-3">Result</h1>
+      
+      <div class="table-responsive pt-3" >
+        <table class="table table-striped table-hover  ">
+          <thead>
+            <tr>
+              <th scope="col">Manage</th>
+              <th scope="col">Domaine</th>
+              <th scope="col">Organisation</th>
+              <th scope="col">Firstname</th>
+              <th scope="col">Lastname</th>
+              <th scope="col">Email</th>
+              <th scope="col">Mobile</th>
+              <th scope="col">Plan</th>
+              <th scope="col">Created</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <i class="bi bi-pencil-fill"></i>
+                <i class="bi bi-trash3-fill"></i>
+              </th>
+              <td>mairiedeparis.citizenbox.fr</td>
+              <td>Ville de Paris</td>
+              <td>Bob</td>
+              <td>Martin</td>
+              <td>bob@gmail.com</td>
+              <td>0718361348</td>
+              <td>2</td>
+              <td>03-06-2022</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <i class="bi bi-pencil-fill"></i>
+                <i class="bi bi-trash3-fill"></i>
+              </th>
+              <td>mairiedeparis.citizenbox.fr</td>
+              <td>Ville de Paris</td>
+              <td>Bob</td>
+              <td>Martin</td>
+              <td>bob@gmail.com</td>
+              <td>0718361348</td>
+              <td>2</td>
+              <td>03-06-2022</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <i class="bi bi-pencil-fill"></i>
+                <i class="bi bi-trash3-fill"></i>
+              </th>
+              <td>mairiedeparis.citizenbox.fr</td>
+              <td>Ville de Paris</td>
+              <td>Bob</td>
+              <td>Martin</td>
+              <td>bob@gmail.com</td>
+              <td>0718361348</td>
+              <td>2</td>
+              <td>03-06-2022</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <i class="bi bi-pencil-fill"></i>
+                <i class="bi bi-trash3-fill"></i>
+              </th>
+              <td>mairiedeparis.citizenbox.fr</td>
+              <td>Ville de Paris</td>
+              <td>Bob</td>
+              <td>Martin</td>
+              <td>bob@gmail.com</td>
+              <td>0718361348</td>
+              <td>2</td>
+              <td>03-06-2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-muted fw-lighter">1-10 of 143 results </p>
+  
+      <nav >
+        <ul class="pagination justify-content-end">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+
+      <footer class="pt-3 mt-4 text-muted fw-lighter border-top d-flex justify-content-center">
+        &copy; DigitaleBox. All Rights Reserved.
+      </footer>
+
+    </main>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>      
+  </body>
+</html>
